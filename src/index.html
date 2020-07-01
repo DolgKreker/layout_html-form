@@ -2,16 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta
+      name="viewport"
+      content="width=device-width,
+      user-scalable=no,
+      initial-scale=1.0,
+      maximum-scale=1.0,
+      minimum-scale=1.0"
+    >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Form</title>
     <link rel="stylesheet" href="./style.css">
   </head>
 
   <body>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application">
-      <fieldset>
+    <form
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+      method="POST"
+    >
+      <fieldset class="question-block">
         <legend>
           Personal information
         </legend>
@@ -70,7 +79,7 @@
         </div>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="question-block">
         <legend>
           Registration
         </legend>
@@ -99,7 +108,7 @@
         </div>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="question-block">
         <legend>An interesting fact about you!</legend>
         <div class="box-inside">
           <span>
@@ -162,7 +171,7 @@
         </div>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="question-block">
         <legend>Additional info:</legend>
         <div class="box-inside">
           <label for="comments">Comments:</label>
